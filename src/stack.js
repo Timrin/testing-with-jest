@@ -14,5 +14,5 @@ exports.pop = function() {
 
 // Return the element at the top of the stack
 exports.peek = function() {
-    return stack[0]; //Intentional error
+    return _.last(stack);
 };
