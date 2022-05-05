@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "dependencies": {
-    "jest": "^28.0.3"
+    "jest": "^28.0.3",
+    "underscore": "^1.13.3"
   },
   "devDependencies": {
     "geckodriver": "^3.0.1",
