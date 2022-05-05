@@ -37,5 +37,5 @@ test('Clicking "Vad finns överst på stacken" displays the top most element', a
     let peek = await driver.findElement(By.id('peek'));
 	await peek.click();
     let stack = await driver.findElement(By.id('top_of_stack')).getText();
-    expect(stack).toEqual("undefined");
+    expect(stack).toEqual("Bananer");
 });
