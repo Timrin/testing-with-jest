@@ -1,0 +1,29 @@
+{
+  "name": "testing-with-jest",
+  "version": "1.0.0",
+  "description": "Lab session: Testing with Jest",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jest": "^28.0.3"
+  },
+  "devDependencies": {
+    "geckodriver": "^3.0.1",
+    "selenium-webdriver": "^4.1.2"
+  },
+  "scripts": {
+    "test": "jset tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Timrin/testing-with-jest.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Timrin/testing-with-jest/issues"
+  },
+  "homepage": "https://github.com/Timrin/testing-with-jest#readme"
+}
